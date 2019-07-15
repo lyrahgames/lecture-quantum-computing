@@ -1,0 +1,141 @@
+\documentclass[9pt]{article}
+\usepackage{extsizes}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,left=20mm,top=20mm,right=20mm,bottom=20mm]{geometry}
+\pagestyle{empty}
+\usepackage[light,sfdefault]{roboto}
+\usepackage{multicol}
+
+\begin{document}
+  \begin{multicols}{2}
+    \begin{itemize}
+      \item{
+        Vorbemerkungen
+        \begin{itemize}
+          \item Leistungsfähigkeit von Rechnern
+          \item Problemklassen
+        \end{itemize}
+      }
+      \item{
+        Boolesche Algebra
+        \begin{itemize}
+          \item Rechnen im $\mathbf{F}_2$
+          \item 1-Bit-Gatter
+          \item 2-Bit-Gatter
+          \item $n$-Bit-Gatter
+        \end{itemize}
+      }
+      \item Reversible Operationen
+        \begin{itemize}
+          \item Definition: reversible Gatter
+          \item Landauer Prinzip
+          \item Shannon Entropie
+          \item 2-Niveau-Systeme und Bitverluste
+        \end{itemize}
+      \item Konstruktion universeller und reversibler Gatter
+        \begin{itemize}
+          \item 1-1-Gatter: Identität, NOT
+          \item 2-2-Gatter: linear, COPY, SWAP, CNOT
+          \item 3-3-Gatter: nichtlinear, Toffoli
+        \end{itemize}
+      \item Quantentheorie
+        \begin{itemize}
+          \item Hilbert-Raum
+          \item Operatoren
+          \item ONB, inneres Produkt, äußeres Produkt
+          \item Erwartungswert
+          \item orthogonaler Projektor
+          \item Normaloperator
+          \item unitärer Basiswechsel, biorthogonale Entwicklung
+          \item inneres Produkt nach Hilbert-Schmidt
+          \item Superoperator
+          \item Polarzerlegung, Spektral-Theorem
+        \end{itemize}
+      \item Qubits
+        \begin{itemize}
+          \item Realisierung
+          \item Definition
+          \item fundamentale Operatoren und Pauli-Matrizen
+          \item Spin-Hamilton-Operator
+          \item Interpretation von 1-Bit-Gattern
+          \item Hadamard-Operator und Quantenparallelismus
+        \end{itemize}
+      \item Systeme aus zwei Qubits
+        \begin{itemize}
+          \item ohne Wechselwirkung
+          \item mit Wechselwirkung
+          \item Verschränkung
+          \item Maß der Verschränkung, Konkurrenz
+          \item Bell-Zustände
+          \item Dichteoperator und Eigenschaften
+          \item inkohärente Überlagerung
+          \item reiner Zustand
+          \item Reinheitsmaß
+        \end{itemize}
+      \item Bloch-Kugel
+        \begin{itemize}
+          \item allgemeiner Dichteoperator
+          \item Eigenwert-Problem
+          \item Bloch-Vektor auf Bloch-Sphäre
+          \item Reinheitsgrad-Konkurrenz-Beziehung
+        \end{itemize}
+      \item No-cloning Theorem
+        \begin{itemize}
+          \item formale Definition: Quantenkopierer
+          \item Widerspruchsbeweis
+        \end{itemize}
+      \item Quantengatter mit Einzel-Qubit
+        \begin{itemize}
+          \item allgemeine Phase
+          \item $\pi/8$-Gatter
+          \item Verallgemeinerung von NOT
+          \item Quanten-Euler-Formel
+          \item Rotationsverhalten und allgemeinste Drehung
+          \item allgemeiner unitärer Operator
+          \item ABC-Operatoren
+          \item Polardarstellung mit Rotation
+        \end{itemize}
+      \item 2-Qubit-Systeme
+        \begin{itemize}
+          \item Verschränkungsmaß und Bell-Zustände
+          \item partielle Spurbildung
+          \item Wurzel aus $\sigma_\mathrm{X}$
+        \end{itemize}
+      \item 2-Qubit-Gatter
+        \begin{itemize}
+          \item CNOT
+          \item Verallgemeinerung: CU
+          \item Toffoli
+        \end{itemize}
+      \item Universeller Satz von Quantengattern
+        \begin{itemize}
+          \item CNOT mit Verallgemeinerung
+          \item $\pi/8$-Gatter, Hadamard-Gatter
+          \item Universalsätze
+          \item 3-Qubit-Systeme
+          \item Approximation von Einzel-Qubit-Gattern mit erster und zweiter Rotation
+        \end{itemize}
+      \item Quanten-Algorithmen
+        \begin{itemize}
+          \item grundlegender Ablauf und Bedingungen
+          \item Deutsch-Algorithmus
+          \item Quanten-Fourier-Transformation mit Schaltung
+          \item Periodensuche und Anwendung QFT mit Euklid-Algorithmus
+          \item Primfaktorzerlegung durch Ordnungsbestimmung
+          \item Modulare Exponentiation
+          \item Shor-Algorithmus
+          \item Suchalgorithmus nach Grover
+        \end{itemize}
+      \item Fehlertheorie
+        \begin{itemize}
+          \item Klassische Fehlerkorrektur
+          \item Bit-Swap und Parität
+          \item Shor-Code
+          \item Steame-Code
+          \item optimierter Code
+          \item etwas mehr
+        \end{itemize}
+    \end{itemize}
+  \end{multicols}
+\end{document}
